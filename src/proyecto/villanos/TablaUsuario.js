@@ -20,7 +20,8 @@ const TablaUsuario = (props) =>{
                     <th colSpan={2}>Opciones</th>
                 </tr>
             </thead>
-            <tbody>
+
+            <body>
  
                 {
                     listaUsuarios.length == 0 ? (
@@ -58,7 +59,7 @@ const TablaUsuario = (props) =>{
                         )))
                     }
                     
-                </tbody>
+                </body>
             </table>
         </>
     )

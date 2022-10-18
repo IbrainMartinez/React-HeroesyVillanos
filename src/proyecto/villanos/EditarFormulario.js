@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 const EditarFormulario = (props) => {
 const [usuario, setUsuario] = useState(props.EstadoUsuario)
-
+  
 useEffect(() => {
     setUsuario(props.EstadoUsuario)
 }, [props])

@@ -11,7 +11,6 @@ const Principal = () =>{
     return(
         <>
         <BrowserRouter>
-        
             <Menu/>
         <Routes>
                 <Route path='/' element={<Inicio/>}/>
